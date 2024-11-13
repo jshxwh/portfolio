@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Madla | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- AOS Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Additional Styling for Smooth Transitions */
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-card {
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+<!-- Hero Section -->
+<section class="flex flex-col items-center justify-center h-screen bg-gray-900 text-white" data-aos="fade-up">
+    <div class="text-center">
+      <img src="resources/images/PROFILE.JPG" alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto mb-6 object-cover" data-aos="zoom-in" data-aos-delay="200">
+      <h2 class="text-2xl font-semibold">Hello, I'm</h2>
+      <h1 class="text-5xl font-bold mt-2">Joshua C. Madla</h1>
+      <p class="text-xl font-medium mt-2">Web Developer</p>
+      <div class="mt-4">
+        <a href="resources/Resume.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mr-2" data-aos="fade-up" data-aos-delay="400">Download Resume</a>
+        <a href="#contact" class="bg-transparent border border-white text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-gray-900" data-aos="fade-up" data-aos-delay="600">Contact Info</a>
+      </div>
+      <div class="flex justify-center space-x-6 mt-6">
+        <a href="https://github.com/jshxwh" target="_blank"><img src="https://simpleicons.org/icons/github.svg" class="w-8 h-8" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/joshuamadla02/" target="_blank"><img src="https://simpleicons.org/icons/linkedin.svg" class="w-8 h-8" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16 bg-gray-100" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">About Me</h2>
+      <div class="flex flex-col md:flex-row items-center md:space-x-8" data-aos="fade-right" data-aos-delay="200">
+        <img src="resources/images/PROFILE.JPG" alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto mb-6 object-cover" data-aos="zoom-in" data-aos-delay="200">
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 w-full">
+          <div class="bg-white rounded-2xl p-6 shadow-md flex-1" data-aos="zoom-in" data-aos-delay="400">
+            <h3 class="font-semibold text-lg">Experience</h3>
+            <p>IT Intern</p>
+            <p class="text-sm text-gray-600">Maxtronix Inc.</p>
+            <p class="text-sm text-gray-600">March 2024 - July 2024</p>
+          </div>
+          <div class="bg-white rounded-2xl p-6 shadow-md flex-1" data-aos="zoom-in" data-aos-delay="600">
+            <h3 class="font-semibold text-lg">Education</h3>
+            <p>Bachelor of Science in Information Technology</p>
+            <p class="text-sm text-gray-600">Technological University of the Philippines - Taguig</p>
+            <p class="text-sm text-gray-600">Graduated Cum Laude (2020 - 2024)</p>
+            <p class="text-sm text-gray-600">Best Thesis - RAD4 Project</p>
+          </div>
+        </div>
+      </div>
+      <p class="mt-8 text-gray-700 max-w-xl mx-auto">I am aspiring to be a web developer, passionate about the pursuit of new knowledge, and
+        eager to excel in everything I do. To this end, I am able to commit myself to my ability to learn
+        and grow through constantly changing circumstances.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 bg-gray-200" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-left">
+        <!-- Programming Languages -->
+        <div data-aos="fade-right">
+          <h3 class="text-xl font-semibold mb-4">Programming Languages</h3>
+          <ul class="list-none">
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>C++</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>Java</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>Python</span></li>
+          </ul>
+        </div>
+
+        <!-- Web Development -->
+        <div data-aos="fade-up">
+          <h3 class="text-xl font-semibold mb-4">Web Development</h3>
+          <ul class="list-none">
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>HTML</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>CSS</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>JavaScript</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>React</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>React Native</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>Node.js</span></li>
+          </ul>
+        </div>
+
+        <!-- Databases & Other Skills -->
+        <div data-aos="fade-left">
+          <h3 class="text-xl font-semibold mb-4">Databases & Other Skills</h3>
+          <ul class="list-none">
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>SQL</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>MongoDB</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>Git</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>PHP</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>Laravel</span></li>
+            <li class="inline-flex items-center space-x-2 text-lg"><span>✔️</span> <span>WordPress</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-md p-6 project-card" data-aos="zoom-in-up">
+          <h3 class="text-xl font-semibold">RAD4 (Request and Delivery)</h3>
+          <p class="mt-2 text-gray-700">Request And Delivery Bot: A capstone project or thesis that
+            includes a bot (Hardware, Microcontroller : Arduino Mega), mobile application (Expo React
+            Native) and web application (React and Node Js). It's a system that automates item requests and
+            deliveries making sure they are secure and efficient and also improves communication between
+            students and faculty. Awarded Best Thesis.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 project-card" data-aos="zoom-in-up" data-aos-delay="200">
+          <h3 class="text-xl font-semibold">SSTSHOP</h3>
+          <p class="mt-2 text-gray-700">An e-commerce platform for computer parts. The front-end includes
+            React, allowing for a friendly and responsive user interface to view the products and navigate
+            details up to shopping. Its back-end uses Node.js, setting up a robust and scalable environment
+            in the server to handle requests, manage user authentication, and process payment. It makes use
+            of MongoDB for product information, user, and order details for efficient management and rapid
+            access. The aim is to give a seamless shopping experience to tech enthusiasts and professionals
+            alike.
+            </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-md p-6 project-card" data-aos="zoom-in-up" data-aos-delay="400">
+          <h3 class="text-xl font-semibold">Other E-commerce Final Projects</h3>
+          <p class="mt-2 text-gray-700">Additional projects showcasing e-commerce functionalities for various applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-200" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold">Contact Me</h2>
+      <p class="mt-4">Email: <a href="mailto:joshuamadla2222@email.com" class="text-blue-500 hover:underline font-medium">joshuamadla2222@email.com</a></p>
+      <p class="mt-2">LinkedIn: <a href="https://www.linkedin.com/in/joshuamadla02/" target="_blank" class="text-blue-500 hover:underline font-medium">linkedin.com</a></p>
+    </div>
+  </section>
+
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
